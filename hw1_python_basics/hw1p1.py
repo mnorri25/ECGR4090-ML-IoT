@@ -36,7 +36,7 @@ print("The mean age is "+ str(age_mean) +" and the height mean is " + str(height
 
 # Plot ages and heights
 plt.plot(np_ages, np_heights, 'ro')
-plt.title("People Ages vs Heights")
+plt.title("People's Ages vs Heights")
 plt.xlabel("Ages (yrs)")
 plt.ylabel("Heights (cm)")
 plt.grid(color='black')
